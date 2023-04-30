@@ -3,17 +3,23 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid red;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid red;
+  justify-content: center;
+  flex: 1;
+  border: 5px solid saddlebrown;
 }
 
 img {
   width: 600px;
+  border: 1px solid green;
   display: flex;
   justify-content: center;
 }
@@ -37,13 +43,21 @@ input {
 
 .header {
   display: flex;
+
+  border: 5px solid pink;
 }
 
 a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .footer {
   display: flex;
-  margin-top: 150px;
+  margin-top: 350px;
+  background: #eee;
+  border: 5px solid black;
 }
