@@ -5,7 +5,6 @@ body {
   font-family: "Courier New", Courier, monospace;
   display: flex;
   flex-direction: column;
-  border: 5px solid red;
 }
 
 .content {
@@ -14,12 +13,10 @@ body {
   align-items: center;
   justify-content: center;
   flex: 1;
-  border: 5px solid saddlebrown;
 }
 
 img {
   width: 600px;
-  border: 1px solid green;
   display: flex;
   justify-content: center;
 }
@@ -31,6 +28,7 @@ img {
   background: #eee;
   display: flex;
   justify-content: center;
+  padding: 8px 16px;
 }
 
 input {
@@ -43,21 +41,26 @@ input {
 
 .header {
   display: flex;
-
-  border: 5px solid pink;
+  justify-content: space-between;
+  padding: 16px;
 }
 
 a {
   text-decoration: none;
+  color: #666;
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
 
 .footer {
   display: flex;
-  margin-top: 350px;
   background: #eee;
-  border: 5px solid black;
+  justify-content: space-between;
+  padding: 16px;
 }
